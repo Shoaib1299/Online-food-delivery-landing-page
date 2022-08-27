@@ -1,0 +1,59 @@
+/* Responsive */
+
+/* Navigation Bar Section */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 6px;
+}
+/* Home Section */
+#home{
+    height: 370px;
+    padding: 0px 0px;
+}
+
+#home::before{
+    height: 510px;
+}
+
+#home h1{
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#home p{
+    font-size: 1rem;
+}
+
+#home button{
+    font-size: 13px;
+    padding: 4px;
+}
+
+/* Service Action */
+#services{
+    flex-direction: column; 
+}
+
+
+/* Clint Section */
+#clients{
+    flex-wrap: wrap;
+}
+
+#clients img{
+    width: 66px;
+    padding: 6px;
+    height: auto;
+}
+
+#clint-section{}
+/* Contact Section */
+#contact-box form{
+    width: auto;
+}
+
+/* Footer */
